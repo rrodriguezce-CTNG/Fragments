@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="22"
+    android:rowCount="17">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textRemitente"
+        android:layout_row="12"
+        android:layout_column="5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAsunto"
+        android:layout_row="13"
+        android:layout_column="20"
+        android:layout_columnSpan="2" />
+
+    <EditText
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textContenido"
+        android:layout_row="14"
+        android:layout_column="5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/btGuardar"
+        android:layout_row="16"
+        android:layout_column="5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:id="@+id/btCancelar"
+        android:layout_row="16"
+        android:layout_column="21" />
+</GridLayout>
