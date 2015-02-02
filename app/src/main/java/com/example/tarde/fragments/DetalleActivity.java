@@ -16,7 +16,7 @@ public class DetalleActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle);
 
-        CorreoElectronico item = (CorreoElectronico) getIntent().getSerializableExtra(KEY_CORREO_ITEM);
+        CorreoElectronico  item = (CorreoElectronico) getIntent().getSerializableExtra(KEY_CORREO_ITEM);
 
         FragmentManager fragmentManager = getFragmentManager();
 
